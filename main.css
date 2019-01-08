@@ -1,6 +1,6 @@
 .slider {
   position: relative;
-  width: 250px;
+  width: 150px;
   height: 4px;
   margin: 10%;
   background: red;
@@ -118,6 +118,11 @@
 
 .hide {
   /* display: none; */
+  visibility: hidden;
+}
+
+.slider-container {
+  position: fixed;
   visibility: hidden;
 }
 /*# sourceMappingURL=main.css.map */

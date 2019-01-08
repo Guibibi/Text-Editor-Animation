@@ -19,7 +19,7 @@ $(".handle").draggable({
     containment: "parent",
     drag: function (event, ui) {
         var thisOffset = $(this).position().left;
-        var angle = (thisOffset / 200) * 360;
+        var angle = (thisOffset / 150) * 360;
         var hslcolor = "hsl(" + angle + ", 100%, 50%)";
         $(this).css("background-color", hslcolor)
         $(colorbox).css("background-color", hslcolor)

@@ -3,17 +3,18 @@
 const colorbox = document.getElementById('color-circle');
 const inputs = [].slice.call(document.querySelectorAll('input'));
 let clicks = 0;
-
+/* TODO: Refactor all of this */
 $(document).ready(function () {
     $("#color-circle").click(function () {
         if (clicks === 0) {
-            console.log("Hi")
             $(".to-hide").addClass('hide');
             clicks = 1;
-            $('.slider-container').css('visibility', 'visible');
+            $('.slider-container').removeClass('hide');
+            $('.slider-container').addClass('animated fadeIn');
         } else {
             $(".to-hide").removeClass('hide');
-            $('.slider-container').css('visibility', 'hidden');
+            $('.slider-container').addClass('hide');
+            $('.slider-container').removeClass('animated fadeIn');
             clicks = 0;
         }
     });

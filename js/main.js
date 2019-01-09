@@ -16,6 +16,10 @@ $(document).ready(function () {
             $('.slider-container').addClass('hide');
             $('.slider-container').removeClass('animated fadeIn');
             clicks = 0;
-        }
+        };
     });
+    /*Bold function         $("i").click(function () {
+                console.log("well hello there");
+                $(this).addClass(".bold");
+            }); */
 });

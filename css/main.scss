@@ -17,11 +17,7 @@
 }
 
 
-.bold-box,
-.italic-box,
-.heading-box,
-.align-box,
-.link-box {
+i {
     font-size: 1.3em;
     color: #979797;
 }
@@ -46,4 +42,8 @@
 
 .slider-container {
     position: fixed;
+}
+
+.bold {
+    color: black !important;
 }

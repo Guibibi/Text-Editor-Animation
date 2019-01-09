@@ -104,8 +104,8 @@
 }
 
 #color-circle {
-  width: 23px;
-  height: 23px;
+  width: 20px;
+  height: 20px;
   background: var(--circle-color);
   border-radius: 50%;
   vertical-align: auto;
